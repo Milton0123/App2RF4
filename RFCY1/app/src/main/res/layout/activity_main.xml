@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_search_image"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="365dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/chip_guideline_constraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".55" />
+
+    <TextView
+        android:id="@+id/tv_search_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chip_guideline_constraint" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_black_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/chip_guideline_constraint"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-196dp">
+
+        <EditText
+            android:id="@+id/sv_search_product_bar"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_constraintTop_toTopOf=""
+            android:layout_margin="50dp"
+            android:layout_marginTop="40dp"
+            android:hint="    Search for product..."
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:alpha="0.5"
+            android:autofillHints="search..."
+            android:background="@drawable/search_view_custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_search_logo" />
+
+        <ImageView
+            android:id="@+id/img_search_logo"
+            android:layout_width="123dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="68dp"
+            android:alpha="0.25"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/search_logo" />
+
+        <ImageView
+            android:id="@+id/im_search_product_neon"
+            android:layout_width="323dp"
+            android:layout_height="34dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toTopOf="@+id/img_search_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.818"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47"
+            app:srcCompat="@drawable/img_search_producto" />
+
+        <Button
+            android:id="@+id/bt_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_model"
+            android:text="Search"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sv_search_product_bar"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/bt_back_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:alpha=".5"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/im_search_product_neon"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/arrow_back" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
