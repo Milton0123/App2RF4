@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App2RF4</string>
+    <string name="remove_tv_title">Remove</string>
+    <string name="remove_et_code">Ingrese Codigo</string>
+    <string name="remove_et_quantity">Ingrese Cantidad</string>
+    <string name="remove_tv_delete">Delete</string>
 </resources>
