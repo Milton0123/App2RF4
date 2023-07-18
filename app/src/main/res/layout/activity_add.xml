@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <View
+        android:layout_width="650dp"
+        android:layout_height="750dp"
+        android:layout_marginTop="-520dp"
+        android:background="@drawable/bk_add"
+        android:scaleY="1.38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="375dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_back_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/ln_add_home"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/et_name_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight="0.5"
+            android:background="#BE2D2D2D"
+            android:hint="@string/enter_name"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_code_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight="0.5"
+            android:background="#BE2D2D2D"
+            android:hint="@string/enter_code"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_amount_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight="0.5"
+            android:background="#BE2D2D2D"
+            android:hint="@string/enter_amount"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_price_add"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="15dp"
+            android:layout_weight="0.5"
+            android:background="#BE2D2D2D"
+            android:hint="@string/enter_price"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_add_home"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/gradient_bt_add"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_screen_add"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
