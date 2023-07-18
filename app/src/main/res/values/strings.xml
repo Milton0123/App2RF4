@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">App2RF4</string>
-    <string name="title_favorites">Favorites</string>
-    <string name="sub_title_favorites">Productos mas vendidos</string>
-    <string name="item_product_favorites">Nombre de producto</string>
-    <string name="item_income_favorites">Ingresos</string>
-    <string name="item_amount_favorites">Cantidad</string>
+    <string name="favorites_tv_title">Favorites</string>
+    <string name="favorites_tv_sub_title">Productos mas vendidos</string>
+    <string name="favorites_tv_product">Nombre de producto</string>
+    <string name="favorites_tv_income">Ingresos</string>
+    <string name="favorites_tv_quantity">Cantidad</string>
 </resources>
