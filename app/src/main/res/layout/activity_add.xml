@@ -118,7 +118,7 @@
             android:text="@string/add_screen_add"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:paddingStart="20dp"
+            android:paddingStart="40dp"
             android:paddingEnd="20dp"
             android:paddingBottom="10dp"/>
     </LinearLayout>
