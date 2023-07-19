@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login"
-    tools:context=".LoginActivity">
+    tools:context=".ui.LoginActivity">
+
     <View
         android:id="@+id/v_fond_login"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:background="@color/transparent_blue"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_enter_login"
@@ -21,14 +22,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="100dp"
         android:background="@drawable/ic_bt_gradient"
-        android:text="@string/login_bt_enter"
-        android:textSize="20sp"
         android:fontFamily="@font/roboto_medium"
-        android:textStyle="bold"
+        android:text="@string/login_bt_enter"
         android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
