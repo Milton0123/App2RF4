@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">App2RF4</string>
-
+    <string name="remove_tv_title">Remove</string>
+    <string name="remove_et_code">Ingrese Codigo</string>
+    <string name="remove_et_quantity">Ingrese Cantidad</string>
+    <string name="remove_tv_delete">Delete</string>
     <string name="favorites_tv_title">Favorites</string>
     <string name="favorites_tv_sub_title">Productos mas vendidos</string>
     <string name="favorites_tv_product">Nombre de producto</string>
@@ -12,5 +15,4 @@
     <string name="enter_price">Ingrese precio</string>
     <string name="add_screen_add">Agregar</string>
     <string name="login_bt_enter">Entrar</string>
-
 </resources>
