@@ -1,4 +1,4 @@
-package com.example.app2rf4
+package com.example.app2rf4.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
