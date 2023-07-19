@@ -11,5 +11,6 @@
     <string name="enter_amount">Ingrese cantidad</string>
     <string name="enter_price">Ingrese precio</string>
     <string name="add_screen_add">Agregar</string>
+    <string name="login_bt_enter">Entrar</string>
 
 </resources>
