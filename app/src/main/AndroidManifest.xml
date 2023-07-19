@@ -17,6 +17,9 @@
             android:name=".AddActivity"
             android:exported="false" />
         <activity
+            android:name=".FavoritesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
