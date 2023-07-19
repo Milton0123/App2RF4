@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">App2RF4</string>
+
     <string name="favorites_tv_title">Favorites</string>
     <string name="favorites_tv_sub_title">Productos mas vendidos</string>
     <string name="favorites_tv_product">Nombre de producto</string>
     <string name="favorites_tv_income">Ingresos</string>
     <string name="favorites_tv_quantity">Cantidad</string>
+    <string name="enter_name">Ingrese nombre</string>
+    <string name="enter_code">Ingrese codigo</string>
+    <string name="enter_amount">Ingrese cantidad</string>
+    <string name="enter_price">Ingrese precio</string>
+    <string name="add_screen_add">Agregar</string>
+
 </resources>
