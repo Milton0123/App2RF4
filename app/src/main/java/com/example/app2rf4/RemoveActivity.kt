@@ -5,7 +5,7 @@ import android.os.Bundle
 import com.example.app2rf4.databinding.ActivityRemoveBinding
 
 class RemoveActivity : AppCompatActivity() {
-    lateinit var binding : ActivityRemoveBinding
+    lateinit var binding: ActivityRemoveBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRemoveBinding.inflate(layoutInflater)
