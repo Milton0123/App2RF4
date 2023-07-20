@@ -15,4 +15,7 @@
     <string name="enter_price">Ingrese precio</string>
     <string name="add_screen_add">Agregar</string>
     <string name="login_bt_enter">Entrar</string>
+    <string name="free_shop">Free shop</string>
+    <string name="terminos_y_condiciones">Terminos y condiciones</string>
+
 </resources>
