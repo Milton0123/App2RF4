@@ -12,4 +12,5 @@
     <color name="opaque_white">#CBFFFFFF</color>
     <color name="transparent_white">#00FFFFFF</color>
     <color name="transparent_blue">#320500FF</color>
+    <color name="gray_700">#504C4C</color>
 </resources>
