@@ -2,18 +2,16 @@ package com.example.app2rf4.back
 
 interface AbmProducts {
 
-    fun getProducts()
+    fun getProducts(): MutableList<ProductModel>
 
-    fun setProducts()
+    fun searchProduct(query: String):String
 
-    fun searchProduct()
+    fun addProduct(name:String, price:Int, id:String, quantity:Int, trademark:String):String
 
-    fun addProduct()
+    fun deleteProduct(name:String, price:Int, id:String, quantity:Int, trademark:String):String
 
-    fun deleteProduct()
+    fun addFavoriteProduct(name:String, price:Int, id:String, quantity:Int, trademark:String)
 
-    fun addFavoriteProduct()
-
-    fun sellProduct()
+    fun sellProduct(id:String):String
 
 }
