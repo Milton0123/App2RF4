@@ -11,9 +11,9 @@
     <View
         android:layout_width="650dp"
         android:layout_height="750dp"
-        android:layout_marginTop="-520dp"
         android:background="@drawable/bk_add"
         android:scaleY="1.38"
+        android:translationY="-520dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -15,11 +15,15 @@ class LoginActivity : AppCompatActivity() {
         action()
     }
 
-    fun action() {
+    private fun action() {
+        goToLogin()
+    }
+    private fun goToLogin(){
         binding.btEnterLogin.setOnClickListener {
             startActivity(
                 Intent(this, HomeActivity::class.java)
             )
+            finish()
         }
     }
 }
