@@ -3,7 +3,6 @@ package com.example.app2rf4.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.app2rf4.databinding.ActivityFavoritesBinding
-import com.example.app2rf4.databinding.ActivityMainBinding
 
 class FavoritesActivity : AppCompatActivity() {
     lateinit var binding : ActivityFavoritesBinding
