@@ -2,7 +2,7 @@ package com.example.app2rf4.back
 
 import android.content.Context
 
-class Repository(context:Context):AbmProducts {
+class Repository():AbmProducts {
     //val stock= LocalData(context)
 
     override fun getProducts(): MutableList<ProductModel> {
