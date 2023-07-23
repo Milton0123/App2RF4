@@ -1,6 +1,10 @@
 package com.example.app2rf4.back
 
+import android.content.Context
+import com.example.app2rf4.R
+
 class Repository():AbmProducts {
+
     override fun getProducts(): MutableList<ProductModel> {
         TODO("Not yet implemented")
     }
@@ -53,5 +57,13 @@ class Repository():AbmProducts {
         TODO("Not yet implemented")
     }
 
-
+    override fun getSomite(): List<Somite>{
+        return listOf(
+            Somite(R.drawable.ic_shopping_cart, "Agregar"),
+            Somite(R.drawable.ic_search, "Buscar"),
+            Somite(R.drawable.ic_content_buy, "Vender"),
+            Somite(R.drawable.ic_star_favorite, "Favoritos"),
+            Somite(R.drawable.ic_delete, "Eliminar")
+        )
+    }
 }
