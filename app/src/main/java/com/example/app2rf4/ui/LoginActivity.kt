@@ -20,6 +20,7 @@ class LoginActivity : AppCompatActivity() {
             startActivity(
                 Intent(this, HomeActivity::class.java)
             )
+            finish()
         }
     }
 }

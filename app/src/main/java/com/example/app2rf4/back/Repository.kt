@@ -59,11 +59,11 @@ class Repository():AbmProducts {
 
     override fun getSomite(): List<Somite>{
         return listOf(
-            Somite(R.drawable.ic_shopping_cart, "Agregar"),
-            Somite(R.drawable.ic_search, "Buscar"),
-            Somite(R.drawable.ic_content_buy, "Vender"),
-            Somite(R.drawable.ic_star_favorite, "Favoritos"),
-            Somite(R.drawable.ic_delete, "Eliminar")
+            Somite(R.drawable.ic_shopping_cart, "Add"),
+            Somite(R.drawable.ic_search, "Search"),
+            Somite(R.drawable.ic_content_buy, "Sell"),
+            Somite(R.drawable.ic_star_favorite, "Favorites"),
+            Somite(R.drawable.ic_delete, "Remove")
         )
     }
 }
