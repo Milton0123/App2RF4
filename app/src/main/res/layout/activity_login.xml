@@ -8,7 +8,7 @@
     tools:context=".ui.LoginActivity">
 
     <View
-        android:id="@+id/v_fond_login"
+        android:id="@+id/vw_fond_login"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/transparent_blue"
