@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="250dp"
-    android:layout_height="150dp"
-    android:layout_margin="15dp"
+    android:layout_width="230dp"
+    android:layout_height="120dp"
+    android:layout_margin="10dp"
     android:background="@drawable/border_radius_8">
     <ImageView
         android:id="@+id/iv_imagen_iconos"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="18dp"/>
-
     <TextView
         android:id="@+id/tv_item"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="50dp"
-        android:layout_marginVertical="80dp"
+        android:layout_marginVertical="50dp"
         android:textAlignment="center"
         android:textSize="25sp"/>
 
