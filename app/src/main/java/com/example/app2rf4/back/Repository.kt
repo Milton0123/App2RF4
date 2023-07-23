@@ -3,13 +3,29 @@ package com.example.app2rf4.back
 import android.content.Context
 import com.example.app2rf4.R
 
-class Repository():AbmProducts {
+
+class Repository(context:Context):AbmProducts {
+    //val stock= LocalData(context)
 
     override fun getProducts(): MutableList<ProductModel> {
+
         TODO("Not yet implemented")
     }
 
     override fun searchProduct(query: String): String {
+//        var thereIsNo=true
+//        var value= ""
+//
+//        (lista de objetos).forEach{
+//            if(it.name = query){
+//                thereIsNo=false
+//                value = "Producto Encontrado"
+//            }
+//        }
+//        if(thereIsNo) {
+//            value = "No se ha encontrado producto"
+//        }
+//        return value
         TODO("Not yet implemented")
     }
 

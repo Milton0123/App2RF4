@@ -13,4 +13,6 @@
     <color name="transparent_white">#00FFFFFF</color>
     <color name="transparent_blue">#320500FF</color>
     <color name="gray_700">#504C4C</color>
+    <color name="transparent_purple">#323F51B5</color>#243387
+    <color name="blue">#243387</color>
 </resources>

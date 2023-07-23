@@ -17,5 +17,6 @@
     <string name="login_bt_enter">Entrar</string>
     <string name="free_shop">Free shop</string>
     <string name="terminos_y_condiciones">Terminos y condiciones</string>
+    <string name="search_sv_hint_search">Buscar</string>
 
 </resources>
