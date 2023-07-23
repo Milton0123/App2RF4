@@ -1,6 +1,8 @@
 package com.example.app2rf4.back
 
 import android.content.Context
+import com.example.app2rf4.R
+
 
 class Repository():AbmProducts {
     //val stock= LocalData(context)
@@ -71,5 +73,13 @@ class Repository():AbmProducts {
         TODO("Not yet implemented")
     }
 
-
+    override fun getSomite(): List<Somite>{
+        return listOf(
+            Somite(R.drawable.ic_shopping_cart, "Add"),
+            Somite(R.drawable.ic_search, "Search"),
+            Somite(R.drawable.ic_content_buy, "Sell"),
+            Somite(R.drawable.ic_star_favorite, "Favorites"),
+            Somite(R.drawable.ic_delete, "Remove")
+        )
+    }
 }

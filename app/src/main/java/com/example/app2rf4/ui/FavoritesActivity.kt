@@ -1,9 +1,9 @@
 package com.example.app2rf4.ui
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.app2rf4.databinding.ActivityFavoritesBinding
-import com.example.app2rf4.databinding.ActivityMainBinding
 
 class FavoritesActivity : AppCompatActivity() {
     lateinit var binding : ActivityFavoritesBinding
@@ -11,5 +11,15 @@ class FavoritesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityFavoritesBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        action()
+    }
+    private fun action(){
+        backHome()
+    }
+    private fun backHome(){
+        binding.btBackFavorites.setOnClickListener{
+            startActivity(Intent(this,HomeActivity::class.java))
+            finish()
+        }
     }
 }

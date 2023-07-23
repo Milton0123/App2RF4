@@ -14,4 +14,6 @@ interface AbmProducts {
 
     fun sellProduct(id:String):String
 
+    fun getSomite(): List<Somite>
+
 }
